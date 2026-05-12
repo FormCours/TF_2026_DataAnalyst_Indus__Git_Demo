@@ -1,13 +1,13 @@
-Git
+# Git
 
-repo local
- add
- commit
- status
- log
+## repo local
+- add
+- commit
+- status
+- log
 
-repo distant
- push
- pull
- clone
- fetch
+## repo distant
+- push
+- pull
+- clone
+- fetch
