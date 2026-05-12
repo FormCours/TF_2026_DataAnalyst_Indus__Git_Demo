@@ -21,6 +21,11 @@ NB : Ajouter « --global » pour réaliser une config global sur la machine.
 git status
 ```
 
+### Obtenir la liste des commit
+```
+git log --oneline
+```
+
 ### Sauvegarder le fichiers → Les versionner avec git
 ```
 # Ajouter les fichiers à valider (Stage)
