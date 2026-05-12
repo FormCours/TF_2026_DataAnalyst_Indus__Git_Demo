@@ -44,3 +44,50 @@ Son objectif est d'éviter d'envoyer dans git :
 
 Dépot github avec des templates de gitignore :  
 https://github.com/github/gitignore
+
+## Interaction avec le depot distant
+
+### Liste non exaustive
+- Github
+- GitLab
+- Azuze DevOps
+- Bitbucket
+- ...
+
+### Commande
+- Projet créer en local qu'on lie avec le repo distant
+```
+# Création du lien
+git remote add origin https://github.com/FormCours/TF_2026_DataAnalyst_Indus__Git_Demo
+
+# Envoyer des données vers le repo
+# - Avec la relation (Nom de la remote et le nom de branche sur le repo)
+git push origin main
+
+# - Avec la relation configuré (Idem sauf que la config sauvegarder)
+git push -u origin main
+
+# - Si la relation est configuré
+git push
+```
+
+- Récuperation d'un projet distant
+```
+# Clone du repo (Le lien entre l'origin et le local est configuré)
+git clone <url-repo>
+
+# Clone d'un repo en nommant le dossier
+git clone <url-repo> <nom>
+```
+
+- Travaillé avec un repo distant
+```
+# Envoyer les commits
+git push
+
+# Récuperer les commits sans les appliquer
+git fetch
+
+# Récuperer et appliquer les commits
+git pull
+```
