@@ -1,4 +1,4 @@
-# Demo GIT 01
+# Demo 01 - Introduction à Git
 Ceci est un projet de démo de l'utilisation de git !
 
 ## Les commandes de base
@@ -42,5 +42,4 @@ Son objectif est d'éviter d'envoyer dans git :
 - Des informations sensibles _(Par exemple, le fichier d'env avec des mdp)_
 - Des fichiers ou dossiers inutiles _(Cache, Config local, Dépendence, ...)_
 
-Dépot github avec des templates de gitignore :  
-https://github.com/github/gitignore
+[Dépot github avec des templates de gitignore](https://github.com/github/gitignore)
