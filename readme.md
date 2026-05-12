@@ -1,15 +1,14 @@
 # Demo GIT 01
 Ceci est un projet de démo de l'utilisation de git !
 
-## La base de git
+## Les commandes de base
 
-### Les commandes
-Initialize la gestion avec GIT
+### Initialize la gestion avec GIT
 ```
 git init
 ```
 
-Configurer les données de l'utilisateur
+### Configurer les données de l'utilisateur
 ```
 git config user.name "<nom de l'utilisation>"
 git config user.email "<email de l'utilisation>"
@@ -17,12 +16,12 @@ git config user.email "<email de l'utilisation>"
 NB : Ajouter « --global » pour réaliser une config global sur la machine.
 ```
 
-Verifier l'etat de git
+### Verifier l'etat de git
 ```
 git status
 ```
 
-Sauvegarder le fichiers → Les versionner avec git
+### Sauvegarder le fichiers → Les versionner avec git
 ```
 # Ajouter les fichiers à valider (Stage)
 git add <fichier>
@@ -33,7 +32,7 @@ git add .
 git commit -m "<message>"
 ```
 
-### Le fichier ".gitignore"
+## Le fichier ".gitignore"
 Son objectif est d'éviter d'envoyer dans git : 
 - Des informations sensibles _(Par exemple, le fichier d'env avec des mdp)_
 - Des fichiers ou dossiers inutiles _(Cache, Config local, Dépendence, ...)_
