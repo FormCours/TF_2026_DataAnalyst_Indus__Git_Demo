@@ -1,0 +1,14 @@
+# Dossier de visual studio
+.vs/
+
+# Fichier env
+# - Pattern de fichier à ignorer
+.env
+.env.*
+# - Exception à une regle en ajoutant un point d'exclamation
+!.env.example
+
+# Les archives (zip, 7z)
+# - Pattern basé sur l'extension
+*.zip
+*.7z
